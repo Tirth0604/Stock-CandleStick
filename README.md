@@ -1,62 +1,15 @@
-**# 📈 Stock Candlestick Chart using Python**
+# Stock Candlestick Chart
 
+A small Python visualization project that fetches recent Indian market data with yfinance and charts open, high, low and close prices with Matplotlib.
 
+- **Data:** NSE symbols such as `RELIANCE.NS`, `TCS.NS` and `INFY.NS`.
+- **Output:** A candlestick chart with closing-price annotations.
+- **Tools:** Python, NumPy, pandas, Matplotlib and yfinance.
 
-This project fetches Indian stock market data and displays a candlestick chart using Python libraries.
+Install the libraries in a virtual environment, then open the Python source in this repository to review the ticker setting and run the chart.
 
+```sh
+python -m pip install numpy pandas matplotlib yfinance
+```
 
-
-\## 🔧 Technologies Used
-
-\- Python
-
-\- NumPy
-
-\- Pandas
-
-\- Matplotlib
-
-\- yfinance
-
-
-
-\## 📊 Features
-
-\- Fetches last 7 days stock data from NSE
-
-\- Generates candlestick chart
-
-\- Displays closing price on each candle
-
-\- Supports Indian stocks like RELIANCE, TCS, INFY
-
-
-
-\## ▶️ How to Run
-
-1\. Clone the repository
-
-2\. Install dependencies:
-
-3\. Run the script:
-
-
-
-
-
-**## 🧠 Learning Outcome**
-
-**- Working with real-time financial data**
-
-**- NumPy array operations**
-
-**- Data visualization using Matplotlib**
-
-
-
-
-
-
-
-
-
+Historical market data is provided by Yahoo Finance through yfinance. This project is for visualization practice.
